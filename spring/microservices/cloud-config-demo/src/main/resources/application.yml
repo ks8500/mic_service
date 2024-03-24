@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: cloud-config-demo
+  cloud:
+    config:
+      server:
+        git:
+  security:
+    user:
+      name: configadmin
+      password: welcome1
+server:
+  port: 8070
+
